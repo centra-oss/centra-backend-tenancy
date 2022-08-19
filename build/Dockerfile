@@ -27,5 +27,4 @@ COPY package.json yarn.lock ./
 COPY --from=builder /app/node_modules ./node_modules
 COPY --from=builder /app/dist ./dist
 
-CMD [ "node", "dist/index.js" ]
-
+CMD [ "node", "." ]

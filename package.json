@@ -2,7 +2,7 @@
   "name": "centra-backend-api",
   "version": "1.0.0",
   "description": "Centra's backend API service",
-  "main": "dist/index.js",
+  "main": "dist/main.js",
   "repository": "https://github.com/centra-oss/centra-backend-api.git",
   "author": "Hayden Young <hayden@hbjy.dev>",
   "license": "APL-2.0",
