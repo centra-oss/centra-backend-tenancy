@@ -1,3 +1,4 @@
-import { start } from ".";
+import { createFastifyInstance } from ".";
 
-start("127.0.0.1");
+const fastify = createFastifyInstance();
+fastify.listen({ host: "127.0.0.1", port: 3000 });
